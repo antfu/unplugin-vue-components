@@ -198,6 +198,11 @@ export interface Options {
    * Vue version of project. It will detect automatically if not specified.
    */
   version?: 2 | 2.7 | 3
+
+  /**
+   * Whether runtime is needed
+   */
+  runtime?: boolean
 }
 
 export type ResolvedOptions = Omit<
